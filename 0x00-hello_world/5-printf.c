@@ -2,7 +2,7 @@
 /**
  * main - print the text inside
  * No parameter
- * Description: printf command prints simpy prints the text inside double quotes
+ * Description: prints the text inside double quotes
  * Return: return value is zero
  */
 int main(void)
