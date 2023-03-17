@@ -2,7 +2,7 @@
 /**
  * main - reverse alphabet
  * c - chaarcater
- * 
+ *
  * Description: prints letters a-z in reverse order
  * Return: return value is zero
  */
