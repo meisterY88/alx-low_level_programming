@@ -4,7 +4,7 @@
  * a, B: string
  *
  * Description: prints lowecase and then uppercase alphabets
- * Return value: zero
+ * Return: return value is zero
  */
 int main(void)
 {
