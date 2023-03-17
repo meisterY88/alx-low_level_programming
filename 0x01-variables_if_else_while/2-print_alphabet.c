@@ -9,10 +9,12 @@
 int main(void)
 {
 	char c = 'a';
-	for (c='a';c<='z';c++)
-	{printf("%c",c);
-	}
+
+	for (c = 'a'; c <= 'z'; c++)
+{
+	printf("%c", c);
+}
 	printf("\n");
-	
+
 	return (0);
 }
