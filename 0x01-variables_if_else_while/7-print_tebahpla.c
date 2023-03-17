@@ -6,7 +6,7 @@
  * Description: prints letters a-z in reverse order
  * Return: return value is zero
  */
-int main (void)
+int main(void)
 {
 	char c = 'z';
 
