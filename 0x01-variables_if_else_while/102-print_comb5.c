@@ -26,11 +26,11 @@ int main(void)
 						putchar(48 + j);
 						putchar(32);
 						putchar(48 + k);
-						putchar(48 + l); }
+						putchar(48 + l);
 					if (ij != 98)
 						{ putchar(44);
 							putchar(32);
-						}
+						}}
 				}
 			}
 		}}
