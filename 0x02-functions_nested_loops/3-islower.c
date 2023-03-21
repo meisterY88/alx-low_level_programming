@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - checks for lower case letters
- * c: c is the ASCII code
+ * @c: c is the ASCII code
  *
  * Return: 0 or 1
  */
