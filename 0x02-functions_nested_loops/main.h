@@ -1,5 +1,4 @@
-void _putchar(void);
-void _print_alphabet(void);
+void _putchar(int a);
 void print_alphabet(void)
 {
 	int i = 0;
