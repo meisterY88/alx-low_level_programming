@@ -6,9 +6,7 @@
  */
 int _islower(int c)
 {
-	int r;
-
-	if (islower(c) != 0)
+	if (96 < c < 123)
 		return (1);
 
 	else 
