@@ -1,4 +1,7 @@
-void _putchar(int a);
+void _putchar(int a)
+{
+	putchar(a);
+}
 void print_alphabet(void)
 {
 	int i = 0;
