@@ -1,12 +1,10 @@
-#include "main.h"
-/**
- * main - check the code
- *
- * Return: zero
- */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-
-	return (0);
+	char c = 'a';
+	for(c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
+	
+	_putchar('\n');
 }
