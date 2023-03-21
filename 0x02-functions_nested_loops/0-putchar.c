@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-#include <main.h>
+#include "main.h"
 
 	return (0);
 }
