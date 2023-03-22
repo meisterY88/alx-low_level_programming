@@ -13,7 +13,7 @@ void times_table(void)
 	{
 		_putchar(48);
 
-		for (j = 0; j < 10; j++)
+		for (j = 1; j < 10; j++)
 		{
 			ij = i * j;
 			if (ij < 10)
