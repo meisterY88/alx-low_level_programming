@@ -30,7 +30,6 @@ void times_table(void)
 				t = ij / 10;
 				_putchar(44);
 				_putchar(32);
-				_putchar(32);
 				_putchar(48 + t);
 				_putchar(48 + m);
 			}
