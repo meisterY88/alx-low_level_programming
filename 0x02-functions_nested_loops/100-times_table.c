@@ -11,12 +11,12 @@ void print_times_table(int n)
 	int i, j = 0;
 	int ij;
 
-	if (n > 0 && n <= 15)
+	if (n >= 0 && n <= 15)
 	{
 		for (i = 0; i <= n; i++)
 		{
 		printf("0");
-		for (j = 1; j < n; j++)
+		for (j = 1; j <= n; j++)
 		{
 			ij = i * j;
 
