@@ -1,14 +1,14 @@
 #include "main.h"
 /**
  * jack_bauer - prints every minute in a day
- * 
+ *
  * Return: no return value
  */
 void jack_bauer(void)
 {
 	int i, j, k, l = 0;
 	int it;
-	
+
 	for (i = 0; i < 3; i++)
 	{
 		for (j = 0; j < 10; j++)
