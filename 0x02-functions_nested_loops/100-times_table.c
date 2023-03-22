@@ -24,11 +24,11 @@ void print_times_table(int n)
 			{
 				printf(",   %d", ij);
 			}
-			else if (ij > 10 && ij < 100)
+			else if (ij >= 10 && ij < 100)
 			{
 				printf(",  %d", ij);
 			}
-			else if (ij > 99)
+			else if (ij >= 100)
 			{
 				printf(", %d", ij);
 			}
