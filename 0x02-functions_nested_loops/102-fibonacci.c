@@ -6,16 +6,16 @@
  */
 int main(void)
 {
-	int m = 1;
-	int n = 2;
+	unsigned long m = 1;
+	unsigned long n = 2;
 	int i = 0;
-	long int sum;
+	unsigned long sum;
 
-	printf("%d, %d", m, n);
+	printf("%lu, %lu", m, n);
 	for (i = 0; i < 48; i++)
 	{
 		sum = m + n;
-		printf(", %ld", sum);
+		printf(", %lu", sum);
 		m = n;
 		n = sum;
 	}
