@@ -15,17 +15,15 @@ int main(void)
 	while (n <= 4000000)
 	{
 		sum = m + n;
-		if (n % 2 == 0 )
+		if (n % 2 == 0)
 		{
 			sum2 = e + n;
 			e = sum2;
-			
 		}
 		m = n;
 		n = sum;
 	}
 	printf("%lu\n", e);
-	
 
 	return (0);
 }
